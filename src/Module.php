@@ -76,7 +76,7 @@ class Module extends BaseModule implements BootstrapInterface {
     public function init() {
         parent::init();
 
-        $this->controllerNamespace = 'jlorente\captcha';
+        $this->controllerNamespace = 'kublai\captcha';
 
         $this->setAliases([
             '@captchaRoute' => '/' . $this->getUniqueId() . '/captcha/index',
@@ -104,7 +104,7 @@ class Module extends BaseModule implements BootstrapInterface {
      */
     public function bootstrap($app) {
         $app->getUrlManager()->addRules([
-            'jlorente-captcha' => Yii::getAlias('@captchaRoute')
+            'kublai-captcha' => Yii::getAlias('@captchaRoute')
         ]);
     }
 
