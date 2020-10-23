@@ -7,7 +7,7 @@
  * @version     1.0
  */
 
-namespace jlorente\captcha;
+namespace kublai\captcha;
 
 use yii\base\Module as BaseModule;
 use yii\caching\ApcCache;

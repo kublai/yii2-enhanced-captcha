@@ -7,7 +7,7 @@
  * @version     1.0
  */
 
-namespace jlorente\captcha;
+namespace kublai\captcha;
 
 use yii\captcha\Captcha as BaseCaptcha;
 use yii\base\InvalidConfigException;
